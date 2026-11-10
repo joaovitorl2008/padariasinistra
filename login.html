@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Padaria Sinistríssima</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <h1>Padaria Sinistríssima</h1>
+        <p>Sistema de Gestão de Funcionários</p>
+    </header>
+    <main class="login">
+        <h2>Login do Sistema</h2>
+        <p>Entre com seus dados para acessar o sistema.</p>
+        <form action="#" method="post">
+            <label for="usuario">Usuário:</label>
+            <input
+                type="text"
+                id="usuario"
+                name="usuario"
+                placeholder="Digite seu usuário"
+                required
+            >
+            <label for="senha">Senha:</label>
+            <input
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Digite sua senha"
+                required
+            >
+            <div class="lembrar">
+                <input type="checkbox" id="lembrar" name="lembrar">
+                <label for="lembrar">Lembrar de mim</label>
+            </div>
+            <div class="botoes">
+                <button type="submit">
+                    Entrar
+                </button>
+                <button type="reset">
+                    Limpar Campos
+                </button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>© 2026 Padaria Sinistríssima - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
